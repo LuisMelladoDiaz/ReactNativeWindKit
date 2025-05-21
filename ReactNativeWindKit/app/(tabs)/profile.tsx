@@ -9,7 +9,7 @@ export default function Profile() {
         signout();
     };
 
-    if (!session) return <Redirect href="/signIn" />;
+    //if (!session) return <Redirect href="/signIn" />;
 
     return (
         <View className="flex-1 justify-center items-center">
